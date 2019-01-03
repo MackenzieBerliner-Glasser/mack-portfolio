@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header/header'
-import Footer from './footer/footer'
 import './layout.css'
 
 const Layout = () => (
@@ -20,14 +19,13 @@ const Layout = () => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Footer />
       </>
     )}
   />
 )
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node
 }
 
 export default Layout

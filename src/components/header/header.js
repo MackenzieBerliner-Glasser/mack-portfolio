@@ -1,42 +1,29 @@
 import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
+
 import React from 'react'
 
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
+const Header = () => {
+    const links = ['About', 'Projects', 'Blog', 'Contact'];
+    const listLinks = links.map((link, i) => {
+      return (
+        <Link key={i} to={link}>
+          {link}
         </Link>
-      </h1>
-    </div>
-  </div>
-)
+      );
+    });
+    return (
+      <header>
+        <div>
+          <h3>Mackenzie Berliner-Glasser</h3>
+        </div>
+        <nav>
+          {listLinks}
+        </nav>
+      </header>
+    );
+};
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+
 
 export default Header

@@ -6,7 +6,7 @@ import Footer from '../components/footer/footer';
 import About from '../components/about/about';
 
 
-const IndexPage = () => (
+const AboutPage = () => (
   <>
     <Layout />
     <About />
@@ -14,4 +14,4 @@ const IndexPage = () => (
   </>
 )
 
-export default IndexPage
+export default AboutPage
