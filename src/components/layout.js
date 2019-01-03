@@ -28,4 +28,4 @@ Layout.propTypes = {
   children: PropTypes.node
 }
 
-export default Layout
+export default Layout;

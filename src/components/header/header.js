@@ -1,6 +1,6 @@
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
 
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
     const links = ['About', 'Projects', 'Blog', 'Contact'];
@@ -14,11 +14,13 @@ const Header = () => {
     return (
       <header>
         <div>
-          <h3>Mackenzie Berliner-Glasser</h3>
+          <div>
+            <h3>Mackenzie Berliner-Glasser</h3>
+          </div>
+          <nav>
+            {listLinks}
+          </nav>
         </div>
-        <nav>
-          {listLinks}
-        </nav>
       </header>
     );
 };
@@ -26,4 +28,4 @@ const Header = () => {
 
 
 
-export default Header
+export default Header;
