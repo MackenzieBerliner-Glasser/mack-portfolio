@@ -1,31 +1,21 @@
+import React from 'react';
 import { Link } from 'gatsby';
 
-import React from 'react';
-
 const Header = () => {
-    const links = ['About', 'Projects', 'Blog', 'Contact'];
-    const listLinks = links.map((link, i) => {
-      return (
-        <Link key={i} to={link}>
-          {link}
-        </Link>
-      );
-    });
+  const links = ['About', 'Projects', 'Blog', 'Contact'];
+  const listLinks = links.map((link, i) => {
     return (
-      <header>
-        <div>
-          <div>
-            <h3>Mackenzie Berliner-Glasser</h3>
-          </div>
-          <nav>
-            {listLinks}
-          </nav>
-        </div>
-      </header>
+      <Link key={i} to={link}>
+        {link}
+      </Link>
     );
+  });
+  return (
+    <nav>
+      <h3>MACK BERLINER-GLASSER</h3>
+      {listLinks}
+    </nav>
+  );
 };
-
-
-
 
 export default Header;
