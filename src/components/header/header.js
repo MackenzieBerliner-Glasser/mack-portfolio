@@ -1,19 +1,22 @@
 import React from 'react';
+import styles from './header.module.css';
 import { Link } from 'gatsby';
 
 const Header = () => {
   const links = ['About', 'Projects', 'Blog', 'Contact'];
   const listLinks = links.map((link, i) => {
     return (
-      <Link key={i} to={link}>
+      <Link key={i} to={link} className={styles.link}>
         {link}
       </Link>
     );
   });
   return (
-    <nav>
-      <h3>MACK BERLINER-GLASSER</h3>
-      {listLinks}
+    <nav className={styles.header}>
+      <h3 className={styles.logo}>MACK BERLINER-GLASSER</h3>
+      <div className={styles.navigation}>
+        {listLinks}
+      </div>
     </nav>
   );
 };
