@@ -1,0 +1,28 @@
+.mainHeader {
+  background: #F5F8FA;
+  padding: 32px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.125);
+}
+.center {
+  text-align: center;
+}
+.pageTitle {
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.pageDescription {
+  font-size: 1.5rem;
+  color: $lightgrey;
+}
+
+.mainPagePhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+}

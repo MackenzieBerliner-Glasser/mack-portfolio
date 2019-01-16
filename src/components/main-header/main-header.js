@@ -1,19 +1,20 @@
 import React, { Fragment } from 'react';
 import mainImg from '../../images/Main.png';
+import styles from './main-header.module.css';
 
 
 const MainHeader = () => {
   return (
     <Fragment>
-      <header className="main-header">
-        <div className="center">
+      <header className={styles.mainHeader}>
+        <div className={styles.center}>
           <img
-            className="main-page-photo"
+            className={styles.mainPagePhoto}
             src={mainImg}
             alt="head-shot photo"
           />
-          <h1 className="page-title">Mack Berliner-Glasser</h1>
-          <h2 className="page-description">Software Developer</h2>
+          <h1 className={styles.pageTitle}>Mack Berliner-Glasser</h1>
+          <h2 className={styles.pageDescription}>Software Developer</h2>
         </div>
       </header>
     </Fragment>
