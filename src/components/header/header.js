@@ -13,7 +13,7 @@ const Header = () => {
   });
   return (
     <nav className={styles.header}>
-      <h3 className={styles.logo}>MACK BERLINER-GLASSER</h3>
+      <h3 className={styles.logo}>{'LOGO'}</h3>
       <div className={styles.navigation}>
         {listLinks}
       </div>

@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import MainHeader from '../main-header/main-header';
 
 const About = () => {
-  return <h1>{'<About />'}</h1>;
+  return (
+    <Fragment>
+      <MainHeader />
+      <h1>{'<About />'}</h1>
+    </Fragment>
+  );
 };
 
 export default About;
