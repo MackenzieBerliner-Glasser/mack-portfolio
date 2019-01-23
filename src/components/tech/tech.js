@@ -11,15 +11,25 @@ import cssLogo from '../../images/code-logos/css.png';
 import htmlLogo from '../../images/code-logos/html.png';
 import jsLogo from '../../images/code-logos/javascript.png';
 import gitLogo from '../../images/code-logos/git.png';
+import styles from './tech.module.css';
 
 const Tech = () => {
   return (
     <div>
       <h4>{'{ Technology }'}</h4>
+      <div id={styles.allLogos}>
+        <div className={styles.logoDiv}>
+          <img
+            src={vueLogo}
+            className={styles.logo}
+            id={styles.vueLogo}
+            alt="vue logo"
+          />
+          <h4 className={styles.logoLabel}>Vue</h4>
+        </div>
+      </div>
     </div>
   );
 };
 
 export default Tech;
-
-
