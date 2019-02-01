@@ -31,3 +31,25 @@
   width: 125px;
   margin: 0px;
 }
+
+#reactLogo {
+  width: 130px;
+  margin: -3px;
+}
+
+#reduxLogo {
+  width: 120px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+#gatsbyLogo {
+  width: 120px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+#nodeLogo {
+  width: 110px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}

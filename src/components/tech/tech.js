@@ -27,6 +27,42 @@ const Tech = () => {
           />
           <h4 className={styles.logoLabel}>Vue</h4>
         </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={reactLogo}
+            className={styles.logo}
+            id={styles.reactLogo}
+            alt="vue logo"
+          />
+          <h4 className={styles.logoLabel}>React</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={reduxLogo}
+            className={styles.logo}
+            id={styles.reduxLogo}
+            alt="vue logo"
+          />
+          <h4 className={styles.logoLabel}>Redux</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={gatsbyLogo}
+            className={styles.logo}
+            id={styles.gatsbyLogo}
+            alt="vue logo"
+          />
+          <h4 className={styles.logoLabel}>Gatsby</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={nodeLogo}
+            className={styles.logo}
+            id={styles.nodeLogo}
+            alt="vue logo"
+          />
+          <h4 className={styles.logoLabel}>Node</h4>
+        </div>
       </div>
     </div>
   );
