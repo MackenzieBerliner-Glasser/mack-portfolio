@@ -53,3 +53,34 @@
   margin-top: 4px;
   margin-bottom: 0px;
 }
+
+#mongoLogo {
+  width: 130px;
+  margin-top: 1px;
+  margin-bottom: 3px;
+}
+
+
+#postgresLogo {
+  width: 115px;
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+
+#jestLogo {
+  width: 115px;
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+
+#jsLogo {
+  width: 125px;
+  margin-top: -4px;
+  margin-bottom: 13px;
+}
+#gitLogo {
+  width: 110px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+

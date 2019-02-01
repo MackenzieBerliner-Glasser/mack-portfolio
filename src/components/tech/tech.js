@@ -7,8 +7,6 @@ import nodeLogo from '../../images/code-logos/node.png';
 import mongoLogo from '../../images/code-logos/mongo.png';
 import postgresLogo from '../../images/code-logos/postgres.png';
 import jestLogo from '../../images/code-logos/jest.png';
-import cssLogo from '../../images/code-logos/css.png';
-import htmlLogo from '../../images/code-logos/html.png';
 import jsLogo from '../../images/code-logos/javascript.png';
 import gitLogo from '../../images/code-logos/git.png';
 import styles from './tech.module.css';
@@ -62,6 +60,51 @@ const Tech = () => {
             alt="vue logo"
           />
           <h4 className={styles.logoLabel}>Node</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={mongoLogo}
+            className={styles.logo}
+            id={styles.mongoLogo}
+            alt="vue logo"
+          />
+          <h4 className={styles.logoLabel}>MongoDB</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={postgresLogo}
+            className={styles.logo}
+            id={styles.postgresLogo}
+            alt="vue logo"
+          />
+          <h4 className={styles.logoLabel}>Postgres</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={jestLogo}
+            className={styles.logo}
+            id={styles.postgresLogo}
+            alt="vue logo"
+          />
+          <h4 className={styles.logoLabel}>Jest</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={jsLogo}
+            className={styles.logo}
+            id={styles.jsLogo}
+            alt="vue logo"
+          />
+          <h4 className={styles.logoLabel}>ES6</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={gitLogo}
+            className={styles.logo}
+            id={styles.gitLogo}
+            alt="vue logo"
+          />
+          <h4 className={styles.logoLabel}>ES6</h4>
         </div>
       </div>
     </div>
