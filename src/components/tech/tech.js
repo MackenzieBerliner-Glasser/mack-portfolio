@@ -14,7 +14,7 @@ import styles from './tech.module.css';
 const Tech = () => {
   return (
     <div>
-      <h4>{'{ Technology }'}</h4>
+      <h4>{'{ What Gets Me Up In The Morning }'}</h4>
       <div id={styles.allLogos}>
         <div className={styles.logoDiv}>
           <img
@@ -30,7 +30,7 @@ const Tech = () => {
             src={reactLogo}
             className={styles.logo}
             id={styles.reactLogo}
-            alt="vue logo"
+            alt="react logo"
           />
           <h4 className={styles.logoLabel}>React</h4>
         </div>
@@ -39,7 +39,7 @@ const Tech = () => {
             src={reduxLogo}
             className={styles.logo}
             id={styles.reduxLogo}
-            alt="vue logo"
+            alt="redux logo"
           />
           <h4 className={styles.logoLabel}>Redux</h4>
         </div>
@@ -48,7 +48,7 @@ const Tech = () => {
             src={gatsbyLogo}
             className={styles.logo}
             id={styles.gatsbyLogo}
-            alt="vue logo"
+            alt="gatsby logo"
           />
           <h4 className={styles.logoLabel}>Gatsby</h4>
         </div>
@@ -57,7 +57,7 @@ const Tech = () => {
             src={nodeLogo}
             className={styles.logo}
             id={styles.nodeLogo}
-            alt="vue logo"
+            alt="node logo"
           />
           <h4 className={styles.logoLabel}>Node</h4>
         </div>
@@ -66,7 +66,7 @@ const Tech = () => {
             src={mongoLogo}
             className={styles.logo}
             id={styles.mongoLogo}
-            alt="vue logo"
+            alt="mongo logo"
           />
           <h4 className={styles.logoLabel}>MongoDB</h4>
         </div>
@@ -75,7 +75,7 @@ const Tech = () => {
             src={postgresLogo}
             className={styles.logo}
             id={styles.postgresLogo}
-            alt="vue logo"
+            alt="postgres logo"
           />
           <h4 className={styles.logoLabel}>Postgres</h4>
         </div>
@@ -84,7 +84,7 @@ const Tech = () => {
             src={jestLogo}
             className={styles.logo}
             id={styles.postgresLogo}
-            alt="vue logo"
+            alt="jest logo"
           />
           <h4 className={styles.logoLabel}>Jest</h4>
         </div>
@@ -93,7 +93,7 @@ const Tech = () => {
             src={jsLogo}
             className={styles.logo}
             id={styles.jsLogo}
-            alt="vue logo"
+            alt="javascript es6 logo"
           />
           <h4 className={styles.logoLabel}>ES6</h4>
         </div>
@@ -102,9 +102,9 @@ const Tech = () => {
             src={gitLogo}
             className={styles.logo}
             id={styles.gitLogo}
-            alt="vue logo"
+            alt="git logo"
           />
-          <h4 className={styles.logoLabel}>ES6</h4>
+          <h4 className={styles.logoLabel}>Git</h4>
         </div>
       </div>
     </div>
