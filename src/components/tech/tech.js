@@ -9,6 +9,8 @@ import postgresLogo from '../../images/code-logos/postgres.png';
 import jestLogo from '../../images/code-logos/jest.png';
 import jsLogo from '../../images/code-logos/javascript.png';
 import gitLogo from '../../images/code-logos/git.png';
+import awsLogo from '../../images/code-logos/aws.png';
+import graphqlLogo from '../../images/code-logos/graphql.png';
 import styles from './tech.module.css';
 
 const Tech = () => {
