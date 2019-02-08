@@ -17,6 +17,7 @@
 .pageDescription {
   font-size: 1.5rem;
   color: #AAAAAA;
+  margin-top: 1.2rem;
 }
 
 .mainPagePhoto {
@@ -25,4 +26,8 @@
   border-radius: 50%;
   margin: 20px;
   object-fit: cover;
+}
+
+#separator {
+  font-size: 2rem;
 }

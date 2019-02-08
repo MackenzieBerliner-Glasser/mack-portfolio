@@ -3,7 +3,7 @@ import styles from './header.module.css';
 import { Link } from 'gatsby';
 
 const Header = () => {
-  const links = ['About', 'Projects', 'Blog', 'Contact'];
+  const links = ['About', 'Projects', 'Contact'];
   const listLinks = links.map((link, i) => {
     return (
       <Link key={i} to={link} className={styles.link}>

@@ -4,13 +4,13 @@
 }
 
 .logo {
-  margin: 0;
-  color: #34495e;
-  font-size: 1.45em;
+  display: none;
 }
 
 .navigation {
   margin-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .logo .link,
 .navigation .link {
@@ -30,6 +30,8 @@
 }
 
 .header {
+  display: flex;
+  justify-content: space-around;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -49,25 +51,16 @@
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 770px) {
   .logo {
+    display: flex;
+    margin: 0;
+    align-items: center;
     margin-left: 10px;
   }
-  .header,
-  .navigation {
-    display: flex;
-  }
-  .header {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 1025px) {
   .header {
     flex-direction: row;
+    width: 100%;
     justify-content: space-between;
   }
 }
