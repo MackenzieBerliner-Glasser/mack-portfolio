@@ -13,8 +13,8 @@
   width: 150px;
   height: 175px;
   background-color: white;
-  box-shadow: 1px 1px 1px purple;
-  border: 3px solid black;
+  /* box-shadow: 1px 1px 1px purple;
+  border: 3px solid black; */
 }
 
 .logoLabel {
@@ -78,9 +78,33 @@
   margin-top: -4px;
   margin-bottom: 13px;
 }
+
+#tsLogo {
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
 #gitLogo {
   width: 110px;
   margin-top: 10px;
   margin-bottom: 13px;
+}
+
+#graphQlLogo {
+  width: 110px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+#apolloLogo {
+  width: 130px;
+  margin-top: -2px;
+  margin-bottom: 0px;
+}
+
+#awsLogo {
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 

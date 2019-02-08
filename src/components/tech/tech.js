@@ -7,10 +7,12 @@ import nodeLogo from '../../images/code-logos/node.png';
 import mongoLogo from '../../images/code-logos/mongo.png';
 import postgresLogo from '../../images/code-logos/postgres.png';
 import jestLogo from '../../images/code-logos/jest.png';
+import tsLogo from '../../images/code-logos/ts.png';
 import jsLogo from '../../images/code-logos/javascript.png';
 import gitLogo from '../../images/code-logos/git.png';
 import awsLogo from '../../images/code-logos/aws.png';
 import graphqlLogo from '../../images/code-logos/graphql.png';
+import apolloLogo from '../../images/code-logos/apollo.png';
 import styles from './tech.module.css';
 
 const Tech = () => {
@@ -97,7 +99,16 @@ const Tech = () => {
             id={styles.jsLogo}
             alt="javascript es6 logo"
           />
-          <h4 className={styles.logoLabel}>ES6</h4>
+          <h4 className={styles.logoLabel}>JavaScript</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={tsLogo}
+            className={styles.logo}
+            id={styles.tsLogo}
+            alt="javascript es6 logo"
+          />
+          <h4 className={styles.logoLabel}>TypeScript</h4>
         </div>
         <div className={styles.logoDiv}>
           <img
@@ -107,6 +118,33 @@ const Tech = () => {
             alt="git logo"
           />
           <h4 className={styles.logoLabel}>Git</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={graphqlLogo}
+            className={styles.logo}
+            id={styles.graphQlLogo}
+            alt="graphql logo"
+          />
+          <h4 className={styles.logoLabel}>GraphQL</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={apolloLogo}
+            className={styles.logo}
+            id={styles.apolloLogo}
+            alt="apollo logo"
+          />
+          <h4 className={styles.logoLabel}>Apollo</h4>
+        </div>
+        <div className={styles.logoDiv}>
+          <img
+            src={awsLogo}
+            className={styles.logo}
+            id={styles.awsLogo}
+            alt="aws logo"
+          />
+          <h4 className={styles.logoLabel}>AWS</h4>
         </div>
       </div>
     </div>
