@@ -1,6 +1,7 @@
 .mainHeader {
   background: #F5F8FA;
   padding: 32px;
+  margin-top: 4rem;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgba(0, 0, 0, 0.125);
