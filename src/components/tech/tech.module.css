@@ -13,13 +13,12 @@
   width: 150px;
   height: 175px;
   background-color: white;
-  /* box-shadow: 1px 1px 1px purple;
-  border: 3px solid black; */
 }
 
 .logoLabel {
   font-size: 20px;
   margin: 0 0 15px 0;
+  color: #666666;
 }
 
 .logo {

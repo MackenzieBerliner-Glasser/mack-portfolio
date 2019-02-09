@@ -1,6 +1,5 @@
 .link {
   text-decoration: none;
-  color: #34495e;
 }
 
 .logo {
@@ -21,12 +20,12 @@
 }
 
 .navigation .link {
-  color: #34495e;
+  color: #99a0b0;
   font-size: 0.99em;
 }
 
 .navigation .link:hover {
-  color: #718daa;
+  color: #f27f7a;
 }
 
 .header {

@@ -1,7 +1,8 @@
 .mainHeader {
-  background: #F5F8FA;
-  padding: 32px;
+  background: #2b313d;
+  padding: 3rem;
   margin-top: 4rem;
+
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgba(0, 0, 0, 0.125);
@@ -11,13 +12,15 @@
 }
 .pageTitle {
   font-size: 3rem;
+  letter-spacing: .2rem;
+  color: #f7f7f7;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
 .pageDescription {
-  font-size: 1.5rem;
-  color: #AAAAAA;
+  font-size: 1rem;
+  color: #eae4e4;
   margin-top: 1.2rem;
 }
 
@@ -31,4 +34,5 @@
 
 #separator {
   font-size: 2rem;
+  color: #f7f7f7;
 }
