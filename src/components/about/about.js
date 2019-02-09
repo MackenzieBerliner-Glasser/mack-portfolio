@@ -7,7 +7,10 @@ const About = () => {
   return (
     <Fragment>
       <MainHeader />
-      <h2 className={styles.about}>About</h2>
+      <div className={styles.about}>
+        <h2 className={styles.aboutHeader}>About</h2>
+        <p>SOME BS</p>
+      </div>
       <Tech />
     </Fragment>
   );

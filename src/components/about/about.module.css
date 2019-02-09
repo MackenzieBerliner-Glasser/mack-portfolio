@@ -1,5 +1,9 @@
 .about {
-  color: #2b313d;
   text-align: center;
+}
+
+.aboutHeader {
+  color: #2b313d;
   font-size: 3rem;
+  margin: 0;
 }
