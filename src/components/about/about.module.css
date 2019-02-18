@@ -1,9 +1,33 @@
 .about {
-  text-align: center;
 }
 
-.aboutHeader {
-  color: #2b313d;
-  font-size: 3rem;
-  margin: 0;
+@media (min-width: 810px) {
+  .about {
+    width: 50vh;
+  }
+  .aside {
+   width: 50vh;
+  }
+
+  .asideHeader {
+    color: #2b313d;
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .aboutHeader {
+    color: #2b313d;
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .aboutSub {
+    margin-top: 1vh;
+  }
+
+  .section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15vh;
+  }
 }
