@@ -2,6 +2,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #F7F7F7;
+}
+
+.background {
+  background-color: #F7F7F7;
+}
+
+.techHeader {
+  color: #2b313d;
+  font-size: 2rem;
+  padding: 20px 0px 5px 0px;
+  text-align: center;
+  /* background-color: #F7F7F7; */
 }
 
 .logoDiv {
@@ -12,7 +25,7 @@
   margin: 9px;
   width: 150px;
   height: 175px;
-  background-color: white;
+  /* background-color: #F7F7F7; */
 }
 
 .logoLabel {
@@ -57,7 +70,6 @@
   margin-top: 1px;
   margin-bottom: 3px;
 }
-
 
 #postgresLogo {
   width: 115px;
@@ -105,4 +117,3 @@
   margin-top: 20px;
   margin-bottom: 0px;
 }
-

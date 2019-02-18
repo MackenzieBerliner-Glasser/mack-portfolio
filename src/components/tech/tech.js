@@ -17,8 +17,8 @@ import styles from './tech.module.css';
 
 const Tech = () => {
   return (
-    <div>
-      <h4>{'{ What Gets Me Up In The Morning }'}</h4>
+    <div className={styles.background}>
+      <h4 className={styles.techHeader}>What Gets Me Up In The Morning</h4>
       <div id={styles.allLogos}>
         <div className={styles.logoDiv}>
           <img

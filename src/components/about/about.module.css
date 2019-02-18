@@ -1,7 +1,10 @@
 .section {
   margin: auto;
-  width: 75%;
   padding: 30px;
+  background-color: #2b313d;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
 }
 
 .list {
@@ -9,13 +12,13 @@
 }
 
 .asideHeader {
-  color: #2b313d;
+  color: #d4cec2;
   font-size: 2rem;
   margin: 0 0 5 0;
 }
 
 .aboutHeader {
-  color: #2b313d;
+  color: #d4cec2;
   font-size: 2rem;
   margin: 0 0 5 0;
 }
@@ -25,13 +28,15 @@
 }
 
 p {
-  color: #666666;
+  color: #d4cec2;
+  width: 80%;
 }
 
 .listItem {
   list-style: none;
-  border-bottom: 1px solid #2b313d;
-  color: #666666;
+  border-bottom: 1px solid #d4cec2;
+  width: 80%;
+  color: #d4cec2;
 }
 
 .listItem:last-child {
@@ -53,21 +58,21 @@ p {
   }
   .listItem {
     list-style: none;
-    border-bottom: 1px solid #2b313d;
-    color: #666666;
+    border-bottom: 1px solid #d4cec2;
+    color: #d4cec2;
   }
   .listItem:last-child {
     border: none;
   }
 
   .asideHeader {
-    color: #2b313d;
+    color: #d4cec2;
     font-size: 2rem;
     margin: 0 0 5 0;
   }
 
   .aboutHeader {
-    color: #2b313d;
+    color: #d4cec2;
     font-size: 2rem;
     margin: 0 0 5 0;
   }
@@ -78,6 +83,10 @@ p {
 
   .section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    background-color: #2b313d;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
   }
 }
