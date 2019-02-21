@@ -2,9 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
-    © Mackenzie Berliner-Glasser {new Date().getFullYear()}
-  </footer>
+    <footer>© Mackenzie Berliner-Glasser {new Date().getFullYear()}</footer>
   );
 };
 
