@@ -6,10 +6,9 @@ const Project = ({ project }) => {
     <section>
       <Link to={project.slug}>
         <h3>{project.title}</h3>
+        <p>{project.tech}</p>
       </Link>
-      <p>{project.tech}</p>
     </section>
-
   );
 };
 
