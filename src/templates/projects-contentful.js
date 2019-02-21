@@ -3,39 +3,48 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-export default class ProjectsContentfulTemplate extends Component {
+class ProjectsContentfulTemplate extends Component {
   render() {
     const project = this.props.data.contentfulProject;
+    console.log(project.title);
     const siteTitle = this.props.data.site.siteMetadata.title;
-    const { previous, next } = this.props.pageContent;
+    const { previous, next } = this.props.pageContext;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={project.title}></SEO>
-        <h3>{project.title}</h3>
-        <p>{project.tech}</p>
-        <div dangerouslySetInnerHTML={{ __html: project.description.childContentfulRichText.html }}></div>
-        <ul>
-          <li>
-            {previous && (
-              <Link to={previous.slug} rel='prev'>
-                {previous.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.slug} rel='prev'>
-                {next.title}
-              </Link>
-            )}
-          </li>
-        </ul>
+        <section>
+          <SEO title={project.title} />
+          <h2>Hello World</h2>
+          <h3>{project.title}</h3>
+          <p>{project.tech}</p>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: project.description.childContentfulRichText.html,
+            }}
+          />
+          <ul>
+            <li>
+              {previous && (
+                <Link to={previous.slug} rel="prev">
+                  {previous.title}
+                </Link>
+              )}
+            </li>
+            <li>
+              {next && (
+                <Link to={next.slug} rel="prev">
+                  {next.title}
+                </Link>
+              )}
+            </li>
+          </ul>
+        </section>
       </Layout>
     );
   }
-
 }
+export default ProjectsContentfulTemplate;
+
 export const pageQuery = graphql`
   query ContentfulProjectBySlug($slug: String!) {
     site {
@@ -43,7 +52,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    contentfulProject( slug: { eq: $slug }) {
+    contentfulProject(slug: { eq: $slug }) {
       title
       tech
       description {

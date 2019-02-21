@@ -36,7 +36,9 @@ exports.createPages = ({ graphql, actions }) => {
 
     projects.forEach((project, index) => {
       const previous = index === projects.length - 1 ? null : projects[index + 1].node;
+      console.log(previous);
       const next = index === 0 ? null : projects[index - 1].node;
+      console.log(next);
 
       createPage({
         path: project.node.slug,

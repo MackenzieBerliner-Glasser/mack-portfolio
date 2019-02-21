@@ -1,8 +1,16 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
-const Project = (project) => {
+const Project = ({ project }) => {
+  // console.log(project);
   return (
-    <h1>{project.title}</h1>
+    <section>
+      <Link to={project.slug}>
+        <h3>{project.title}</h3>
+      </Link>
+      <p>{project.tech}</p>
+    </section>
+
   );
 };
 

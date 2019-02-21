@@ -9,13 +9,12 @@ class ProjectsPage extends Component {
   render() {
     const { data } = this.props;
     const siteTitle = data.site.siteMetadata.title;
-    const projects = data.allContentfulProject.edges.map(({ node }) => {
-      console.log(node);
-      <Project project={node}></Project>;
+    const projects = data.allContentfulProject.edges.map(({ node }, i) => {
+      return <Project key={i} project={node} />;
     });
     return (
       <Fragment>
-        <Layout location={this.props.location} title={siteTitle}/>
+        <Layout location={this.props.location} title={siteTitle} />
         {projects}
         <Footer />
       </Fragment>
