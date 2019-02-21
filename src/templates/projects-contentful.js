@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
-
+// import SEO from '../components/seo';
+import styles from './project-template.module.css';
 class ProjectsContentfulTemplate extends Component {
   render() {
     const project = this.props.data.contentfulProject;
     console.log(project.title);
-    const siteTitle = this.props.data.site.siteMetadata.title;
+    // const siteTitle = this.props.data.site.siteMetadata.title;
     const { previous, next } = this.props.pageContext;
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <section>
-          <SEO title={project.title} />
-          <h2>Hello World</h2>
+      <Layout>
+        <section className={styles.wrapper}>
           <h3>{project.title}</h3>
           <p>{project.tech}</p>
           <div

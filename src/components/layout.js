@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Header from './header/header';
 import './layout.css';
 
-const Layout = () => (
+const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -19,6 +19,7 @@ const Layout = () => (
     render={data => (
       <Fragment>
         <Header siteTitle={data.site.siteMetadata.title} />
+        <main>{children}</main>
       </Fragment>
     )}
   />
