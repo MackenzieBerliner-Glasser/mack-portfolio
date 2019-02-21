@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Project = ({ project }) => {
-  // console.log(project);
   return (
     <section>
       <Link to={project.slug}>

@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import Footer from '../components/footer/footer';
 import Project from '../components/project/project';
+import styles from './projects.module.css';
 
 class ProjectsPage extends Component {
   render() {
@@ -15,7 +16,9 @@ class ProjectsPage extends Component {
     return (
       <Fragment>
         <Layout location={this.props.location} title={siteTitle} />
-        {projects}
+        <section className={styles.wrapper}>
+          {projects}
+        </section>
         <Footer />
       </Fragment>
     );

@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
-// import SEO from '../components/seo';
 import styles from './project-template.module.css';
 class ProjectsContentfulTemplate extends Component {
   render() {
     const project = this.props.data.contentfulProject;
     const image = this.props.data.contentfulProject.image.fluid.src;
-    console.log(image);
-    // const siteTitle = this.props.data.site.siteMetadata.title;
     const { previous, next } = this.props.pageContext;
 
     return (
