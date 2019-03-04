@@ -5,7 +5,6 @@ import styles from './project-template.module.css';
 class ProjectsContentfulTemplate extends Component {
   render() {
     const project = this.props.data.contentfulProject;
-    const image = this.props.data.contentfulProject.image.fluid.src;
     const { previous, next } = this.props.pageContext;
 
     return (
@@ -14,7 +13,6 @@ class ProjectsContentfulTemplate extends Component {
           <Link to='/Projects/'>Go Back</Link>
           <h3>{project.title}</h3>
           <p>{project.tech}</p>
-          <img src={image}></img>
           <div
             dangerouslySetInnerHTML={{
               __html: project.description.childContentfulRichText.html,
@@ -53,11 +51,6 @@ export const pageQuery = graphql`
     contentfulProject(slug: { eq: $slug }) {
       title
       tech
-      image {
-        fluid {
-          src
-        }
-      }
       description {
         childContentfulRichText {
           html
