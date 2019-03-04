@@ -11,7 +11,6 @@ class ProjectsContentfulTemplate extends Component {
     return (
       <Layout>
         <section className={styles.wrapper}>
-          <Link to="/Projects/">Go Back</Link>
           <h3>{project.title}</h3>
           <p>{project.tech}</p>
           <div

@@ -5,6 +5,7 @@ import Layout from '../components/layout';
 import Footer from '../components/footer/footer';
 import Project from '../components/project/project';
 import styles from './projects.module.css';
+import ProjectHeader from '../components/project-header/project-header';
 
 class ProjectsPage extends Component {
   render() {
@@ -17,7 +18,8 @@ class ProjectsPage extends Component {
       <Fragment>
         <Layout location={this.props.location} title={siteTitle} />
         <section className={styles.wrapper}>
-          {projects}
+          <ProjectHeader />
+          <div className={styles.projectCards}>{projects}</div>
         </section>
         <Footer />
       </Fragment>

@@ -1,3 +1,10 @@
-.wrapper {
-  margin-top: 4.8rem;
+
+@media (min-width: 770px) {
+  .projectCards {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 20px 2% 20px 2%;
+    justify-content: space-around;
+  }
 }

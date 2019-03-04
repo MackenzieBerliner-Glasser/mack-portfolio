@@ -1,0 +1,25 @@
+.card:hover {
+  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.4);
+}
+
+.cardText {
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.image {
+  display: block;
+  object-fit: cover;
+  height: 10em;
+	padding: 3px 0 3px 0;
+}
+
+@media (min-width: 770px) {
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 17em;
+    width: 20vw;
+    max-inline-size: 60vh;
+  }
+}
