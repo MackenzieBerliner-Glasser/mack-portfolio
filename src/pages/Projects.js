@@ -38,7 +38,11 @@ export const pageQuery = graphql`
       edges {
         node {
           title
-          tech
+          image {
+            fluid {
+              src
+            }
+          }
           slug
         }
       }
