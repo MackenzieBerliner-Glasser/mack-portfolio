@@ -7,10 +7,11 @@ class ProjectsContentfulTemplate extends Component {
     const project = this.props.data.contentfulProject;
     const { previous, next } = this.props.pageContext;
 
+
     return (
       <Layout>
         <section className={styles.wrapper}>
-          <Link to='/Projects/'>Go Back</Link>
+          <Link to="/Projects/">Go Back</Link>
           <h3>{project.title}</h3>
           <p>{project.tech}</p>
           <div
@@ -18,6 +19,8 @@ class ProjectsContentfulTemplate extends Component {
               __html: project.description.childContentfulRichText.html,
             }}
           />
+          <a href={project.github}>Check it out on GitHub</a>
+          {project.website && <a href={project.website}>Check out the site</a>}
           <ul>
             <li>
               {previous && (
@@ -51,6 +54,8 @@ export const pageQuery = graphql`
     contentfulProject(slug: { eq: $slug }) {
       title
       tech
+      github
+      website
       description {
         childContentfulRichText {
           html
