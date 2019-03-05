@@ -5,7 +5,7 @@
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 80vw;
+  width: 73vw;
   margin-bottom: 1em;
 }
 
@@ -24,7 +24,7 @@
   color: #f27f7a;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1084px) {
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     height: 17em;
