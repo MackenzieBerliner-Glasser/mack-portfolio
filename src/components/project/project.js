@@ -6,7 +6,7 @@ const Project = ({ project }) => {
   const image = project.image.fluid.src;
   return (
     <div className={styles.card}>
-      <Link to={project.slug}>
+      <Link to={project.slug} className={styles.link}>
         <h3 className={styles.cardText}>{project.title}</h3>
         <img className={styles.image} src={image} />
         <div className={styles.cardText}>Learn More</div>

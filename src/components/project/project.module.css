@@ -1,25 +1,40 @@
 .card:hover {
-  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.4);
+  background: #2b313d;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 58%;
+  margin-bottom: 1em;
 }
 
 .cardText {
-	margin: auto;
-	padding: 10px;
-	text-align: center;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
 }
 
-.image {
-  display: block;
-  object-fit: cover;
-  height: 10em;
-	padding: 3px 0 3px 0;
+.link {
+  text-decoration: none;
+  color: #2b313d;
 }
 
-@media (min-width: 770px) {
+.link:hover {
+  color: #f27f7a;
+}
+
+@media (min-width: 1080px) {
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     height: 17em;
     width: 20vw;
     max-inline-size: 60vh;
+  }
+  .image {
+    display: block;
+    object-fit: cover;
+    height: 10em;
+    padding: 3px 0 3px 0;
   }
 }
