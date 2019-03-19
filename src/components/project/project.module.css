@@ -1,6 +1,5 @@
 .card:hover {
-  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.4);
-  background: #2b313d;
+  box-shadow: 0 6px 14px 0 rgba(43, 49, 61, 0.5);
 }
 
 .card {
@@ -11,6 +10,7 @@
 
 .cardText {
   margin: auto;
+  font-size: 1.5em;
   padding: 10px;
   text-align: center;
 }
