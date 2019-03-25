@@ -2,11 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .background {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .techHeader {
@@ -14,7 +14,6 @@
   font-size: 2rem;
   padding: 20px 0px 5px 0px;
   text-align: center;
-  /* background-color: #F7F7F7; */
 }
 
 .logoDiv {
@@ -25,7 +24,6 @@
   margin: 9px;
   width: 150px;
   height: 175px;
-  /* background-color: #F7F7F7; */
 }
 
 .logoLabel {

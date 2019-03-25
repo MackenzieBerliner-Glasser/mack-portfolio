@@ -1,15 +1,11 @@
 .card:hover {
   box-shadow: 0 6px 14px 0 rgba(43, 49, 61, 0.5);
-  transform: scale(1);
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 73vw;
   margin-bottom: 1em;
-  transform: scale(0.95);
-  transition: box-shadow 0.5s, transform 0.5s;
-
 }
 
 .cardText {
@@ -17,6 +13,7 @@
   font-size: 1.5em;
   padding: 10px;
   text-align: center;
+  font-family: 'Roboto';
 }
 
 .link {
@@ -24,21 +21,23 @@
   color: #2b313d;
 }
 
-/* .link:hover {
-  color: #d4cec2;
-} */
-
 @media (min-width: 1084px) {
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     height: 17em;
     width: 20vw;
     max-inline-size: 60vh;
+     transform: scale(0.95);
+   transition: box-shadow 0.5s, transform 0.5s;
   }
   .image {
     display: block;
     object-fit: cover;
     height: 10em;
     padding: 3px 0 3px 0;
+  }
+
+  .card:hover {
+    transform: scale(1);
   }
 }
