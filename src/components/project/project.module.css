@@ -20,9 +20,9 @@
   color: #2b313d;
 }
 
-.link:hover {
-  color: #f27f7a;
-}
+/* .link:hover {
+  color: #d4cec2;
+} */
 
 @media (min-width: 1084px) {
   .card {
