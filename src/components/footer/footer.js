@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './footer.module.css';
 
 const Footer = () => {
   return (
-    <footer>© Mackenzie Berliner-Glasser {new Date().getFullYear()}</footer>
+    <footer className={styles.footer}>© Mackenzie Berliner-Glasser {new Date().getFullYear()}</footer>
   );
 };
 
