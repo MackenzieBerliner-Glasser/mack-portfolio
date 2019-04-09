@@ -18,24 +18,28 @@ class ProjectsContentfulTemplate extends Component {
               __html: project.description.childContentfulRichText.html,
             }}
           />
-          <a href={project.github}>Check it out on GitHub</a>
-          {project.website && <a href={project.website}>Check out the site</a>}
-          <ul>
-            <li>
-              {previous && (
-                <Link to={previous.slug} rel="prev">
-                  {previous.title}
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={next.slug} rel="prev">
-                  {next.title}
-                </Link>
-              )}
-            </li>
-          </ul>
+          <div className={styles.externalLinks}>
+            <a className={styles.link}href={project.github}>Check it out on GitHub</a>
+            {project.website && <a className={styles.link}href={project.website}>Check out the site</a>}
+          </div>
+          <div className={styles.prevNextWrapper}>
+            <ul className={styles.prevNext}>
+              <li>
+                {previous && (
+                  <Link className={styles.prevNextLi} to={previous.slug} rel="prev">
+                    {'< Prev'}
+                  </Link>
+                )}
+              </li>
+              <li>
+                {next && (
+                  <Link className={styles.prevNextLi} to={next.slug} rel="prev">
+                    {'Next >'}
+                  </Link>
+                )}
+              </li>
+            </ul>
+          </div>
         </section>
       </Layout>
     );
