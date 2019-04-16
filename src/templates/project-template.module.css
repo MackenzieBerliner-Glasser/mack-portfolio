@@ -1,5 +1,5 @@
 .wrapper {
-  margin-top: 4.8rem;
+  margin-top: 5.5rem;
 }
 
 .prevNext {
@@ -12,12 +12,12 @@
 .prevNextWrapper {
   position: fixed;
   bottom: 25vh;
-  width: 100%
+  width: 100%;
 }
 
 .externalLinks {
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .link {
@@ -26,7 +26,7 @@
   padding: 1vh;
   color: #f7f7f7;
   text-decoration: none;
-  background: #f27f7a
+  background: #f27f7a;
 }
 
 .link:visited {
@@ -34,9 +34,10 @@
 }
 
 .link:hover {
-  color: #eae4e4
+  color: #eae4e4;
 }
 
 .prevNextLi {
   text-decoration: none;
 }
+
