@@ -11,7 +11,7 @@ const About = () => {
         <div className={styles.about}>
           <h3 className={styles.aboutHeader}>The Bio</h3>
           <h4 className={styles.aboutSub}>Hi, I&apos;m Mack,</h4>
-          <p>
+          <p className={styles.aboutP}>
             Do you see any Teletubbies in here? Do you see a slender plastic tag
             clipped to my shirt with my name printed on it? Do you see a little
             Asian child with a blank expression on his face sitting outside on a
