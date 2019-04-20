@@ -2,6 +2,7 @@
 import React, { Fragment } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './contacts.module.css';
+import Footer from '../footer/footer';
 
 const Contacts = () => {
   return (
@@ -30,6 +31,9 @@ const Contacts = () => {
         >
           <FontAwesomeIcon className={styles.icons} icon={['fab', 'github']} />
         </a>
+      </section>
+      <section className={styles.contactFooter}>
+        <Footer />
       </section>
     </Fragment>
   );

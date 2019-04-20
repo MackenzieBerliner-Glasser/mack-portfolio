@@ -12,3 +12,9 @@
   font-size: 4em;
   color: #2b313d;
 }
+
+.contactFooter {
+  position: fixed;
+  bottom: 0vh;
+  width: 100%;
+}
