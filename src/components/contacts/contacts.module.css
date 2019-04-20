@@ -1,0 +1,14 @@
+.wrapper {
+  margin-top: 5.5rem;
+}
+
+.contact {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons {
+  font-size: 4em;
+  color: #2b313d;
+}
