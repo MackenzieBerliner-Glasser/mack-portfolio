@@ -8,7 +8,11 @@ const Contacts = () => {
   return (
     <Fragment>
       <section className={styles.wrapper}>
-        <h1>Lets Connect!</h1>
+        <div className={styles.center}>
+          <h1 className={styles.contactHeader}>Lets Connect!</h1>
+          <span id={styles.separator}>...</span>
+          <h2 className={styles.description}>Say Hi</h2>
+        </div>
       </section>
       <section className={styles.contact}>
         <a href="mailto:mack.bg94@gmail.com" title="email">
