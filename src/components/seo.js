@@ -19,7 +19,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             title={title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             link={[
-              { rel: 'shortcut icon', type: 'image/x-icon', href: `${favicon}` },
+              { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` },
             ]}
             meta={[
               {
