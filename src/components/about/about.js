@@ -12,25 +12,25 @@ const About = () => {
           <h3 className={styles.aboutHeader}>The Bio</h3>
           <h4 className={styles.aboutSub}>Hi, I&apos;m Mack,</h4>
           <p className={styles.aboutP}>
-            Do you see any Teletubbies in here? Do you see a slender plastic tag
-            clipped to my shirt with my name printed on it? Do you see a little
-            Asian child with a blank expression on his face sitting outside on a
-            mechanical helicopter that shakes when you put quarters in it? No?
-            Well, that&apos;s what you see at a toy store. And you must think you&apos;re
-            in a toy store, because you&apos;re here shopping for an infant named
-            Jeb.
+            I like to build stuff. My journey as a Full Stack JavaScript
+            Engineer started as an undergraduate research assistant where I
+            helped several alternative transportation initiatives through data
+            collection with ArcGIS. Driven by a passion for continuous learning
+            during my time as an Americorps Member I decided to transition in to
+            Tech and have not looked back. My work is something that I do with a
+            lot of honesty, appetite, commitment.
           </p>
         </div>
         <aside className={styles.aside}>
           <h3 className={styles.asideHeader}>Out of Office</h3>
-          <h4 className={styles.aboutSub}>You can probably find me doing...</h4>
+          <h4 className={styles.aboutSub}>You can probably find me ...</h4>
           <ul className={styles.list}>
-            <li className={styles.listItem}>some content</li>
-            <li className={styles.listItem}>some content</li>
-            <li className={styles.listItem}>some content</li>
-            <li className={styles.listItem}>some content</li>
-            <li className={styles.listItem}>some content</li>
-            <li className={styles.listItem}>some content</li>
+            <li className={styles.listItem}>In the gym because of the pizza</li>
+            <li className={styles.listItem}>Buying sneakers</li>
+            <li className={styles.listItem}>Volunteering</li>
+            <li className={styles.listItem}>Gaming</li>
+            <li className={styles.listItem}>Exploring nature</li>
+            <li className={styles.listItem}>Hiking with my pup</li>
           </ul>
         </aside>
       </section>
