@@ -12,13 +12,14 @@ const About = () => {
           <h3 className={styles.aboutHeader}>The Bio</h3>
           <h4 className={styles.aboutSub}>Hi, I&apos;m Mack,</h4>
           <p className={styles.aboutP}>
-            I like to build stuff. My journey as a Full Stack JavaScript
-            Engineer started as an undergraduate research assistant where I
-            helped several alternative transportation initiatives through data
-            collection with ArcGIS. Driven by a passion for continuous learning
-            during my time as an Americorps Member I decided to transition in to
-            Tech and have not looked back. My work is something that I do with a
-            lot of honesty, appetite, commitment.
+            I like to develop apps. My journey to become a Full Stack JavaScript
+            Engineer started when I was an undergraduate working on several
+            alternative transportation initiatives that used ArcGIS. After
+            college I worked as an Americorps member in schools, but my
+            commitment to continuous learning took me in a different direction
+            and I transitioned to the tech field, and I have not looked back. My
+            work is something that I do with a lot of creativity, curiosity, and
+            commitment.
           </p>
         </div>
         <aside className={styles.aside}>

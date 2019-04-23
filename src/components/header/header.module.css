@@ -5,6 +5,15 @@
 
 .logo {
   display: none;
+  color: #99a0b0;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: 'Raleway';
+  letter-spacing: .05em;
+}
+
+.logo:hover {
+  color: #f27f7a;
 }
 
 .navigation {

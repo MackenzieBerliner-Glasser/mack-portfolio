@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
@@ -20,11 +21,11 @@ class ProjectsContentfulTemplate extends Component {
             }}
           />
           <div className={styles.externalLinks}>
-            <a className={styles.link} href={project.github}>
+            <a className={styles.link} target='_blank' href={project.github}>
               Check it out on GitHub
             </a>
             {project.website && (
-              <a className={styles.link} href={project.website}>
+              <a className={styles.link} target='_blank' href={project.website}>
                 Check out the site
               </a>
             )}

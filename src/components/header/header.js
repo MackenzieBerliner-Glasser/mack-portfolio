@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import styles from './header.module.css';
 import { Link } from 'gatsby';
@@ -13,10 +14,10 @@ const Header = () => {
   });
   return (
     <nav className={styles.header}>
-      <h3 className={styles.logo}>{'LOGO'}</h3>
-      <div className={styles.navigation}>
-        {listLinks}
-      </div>
+      <a className={styles.logo} target='_blank' href={'https://www.youtube.com/watch?v=6TBid5bCS2Q'}>
+        MBG
+      </a>
+      <div className={styles.navigation}>{listLinks}</div>
     </nav>
   );
 };
